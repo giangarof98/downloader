@@ -6,5 +6,5 @@ convertBtn.addEventListener('click', function() {
 });
 
 function sendUrl(URL){
-    window.location.href = `http://localhost:3000/dl?URL=${URL}`
+    window.location.href = `http://localhost:3000/dl?URL=${URL}` || `https://downloader-umber.vercel.app/dl?URL=${URL}`
 }
